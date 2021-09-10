@@ -13,11 +13,6 @@ def send_welcome(message):
 @bot.message_handler(commands=["help"])
 def send_message(message):
   bot.send_message(message.chat.id, "☠️ Welcome To Help Room ☠️   My Commands = /info /chat /bots /myinfo /support ©️")
-  
-  
-@bot.massage_handler(commands=["info"])
-def.send_massage(massage):
-  bot.send_massage(massage.chat.id, "💝 SZ Info Privetly💝")
 
 
 
